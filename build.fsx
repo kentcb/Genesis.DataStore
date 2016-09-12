@@ -142,6 +142,7 @@ Target "CreateNuGetPackages" (fun _ ->
                     "Genesis.Ensure", GetPackageVersion packagesDir "Genesis.Ensure"
                     "Genesis.Join", GetPackageVersion packagesDir "Genesis.Join"
                     "Genesis.Logging", GetPackageVersion packagesDir "Genesis.Logging"
+                    "Genesis.Repository", GetPackageVersion packagesDir "Genesis.Repository"
                     "SQLitePCL.pretty", GetPackageVersion packagesDir "SQLitePCL.pretty"
                     "System.Collections.Immutable", GetPackageVersion packagesDir "System.Collections.Immutable"
                 ]
