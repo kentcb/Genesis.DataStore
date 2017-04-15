@@ -2,10 +2,10 @@ namespace Genesis.DataStore.UnitTests.Builders
 {
     using System.Reactive.Concurrency;
     using System.Reactive.Concurrency.Mocks;
-    using DataStore.Internal;
     using Genesis.Logging.Mocks;
+    using global::Genesis.DataStore.Internal;
     using global::Genesis.Logging;
-    using global::Genesis.Util;
+    using global::Genesis.TestUtil;
     using global::SQLitePCL.pretty;
     using Internal.Mocks;
     using Mocks;
