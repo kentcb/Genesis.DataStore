@@ -2,7 +2,7 @@ namespace Genesis.DataStore.UnitTests.Internal.Builders
 {
     using System;
     using DataStore.Internal;
-    using global::Genesis.Util;
+    using global::Genesis.TestUtil;
 
     internal sealed class DataStoreVersionEntityBuilder : IBuilder
     {

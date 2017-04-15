@@ -1,7 +1,7 @@
 namespace Genesis.DataStore.UnitTests.Builders
 {
     using System.Collections.Generic;
-    using global::Genesis.Util;
+    using global::Genesis.TestUtil;
     using global::SQLitePCL.pretty;
 
     public sealed class ConnectionBuilder : IBuilder

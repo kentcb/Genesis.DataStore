@@ -3,7 +3,7 @@ namespace Genesis.DataStore.UnitTests.Internal.Builders
     using System.Collections.Generic;
     using DataStore.Internal;
     using DataStore.UnitTests.Builders;
-    using global::Genesis.Util;
+    using global::Genesis.TestUtil;
     using global::SQLitePCL.pretty;
 
     internal sealed class DataStoreVersionRepositoryBuilder : IBuilder
