@@ -6,7 +6,7 @@ namespace Genesis.DataStore.UnitTests.Internal
     using UnitTests.Builders;
     using Xunit;
 
-    public sealed class DataStoreVersionRepositoryFixture
+    public sealed class DataStoreVersionRepositoryFixture : IClassFixture<SQLite>
     {
         [Fact]
         public void exists_returns_false_if_no_versions_table_exists()
