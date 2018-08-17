@@ -16,11 +16,11 @@
     <PackageReference Include="SQLitePCL.pretty" Version="1.1.0" />
     <PackageReference Include="SQLitePCLRaw.bundle_green" Version="1.1.11" />
     <PackageReference Include="xunit" Version="2.4.0" />
+    <PackageReference Include="xunit.runner.visualstudio" Version="2.4.0" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\Genesis.DataStore\Genesis.DataStore.csproj" />
-    <DotNetCliToolReference Include="dotnet-xunit" Version="2.4.0-beta.1.build3958" />
   </ItemGroup>
 
   <ItemGroup>
